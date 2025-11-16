@@ -1,0 +1,10 @@
+{
+  "sensor_pin": 17,
+  "pump_pin": 27,
+  "sensor_mode": "digital",
+  "max_pump_runtime": 30,
+  "log_file": "plant_data.log",
+  "plant_name": "My First Plant",
+  "plant_type": "Pothos",
+  "notes": "Copy this file to config.json and adjust pins based on your wiring"
+}

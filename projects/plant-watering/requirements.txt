@@ -1,0 +1,14 @@
+# Phase 1 Requirements
+# Basic GPIO control for Raspberry Pi
+
+# Core GPIO library (pre-installed on Raspberry Pi OS)
+RPi.GPIO>=0.7.1
+
+# Optional: For future analog sensor support (MCP3008 ADC)
+# adafruit-circuitpython-mcp3xxx>=1.4.0
+# adafruit-blinka>=8.0.0
+
+# Phase 2+ additions (uncomment when needed):
+# flask>=2.3.0              # Web dashboard
+# paho-mqtt>=1.6.0          # MQTT communication (Phase 3)
+# influxdb-client>=1.36.0   # Time-series database (Phase 3)
